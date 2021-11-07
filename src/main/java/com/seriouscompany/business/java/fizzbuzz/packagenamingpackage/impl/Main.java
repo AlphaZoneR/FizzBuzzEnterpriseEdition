@@ -17,6 +17,7 @@ public final class Main {
 	 * @param args
 	 */
 	public static void main(final String[] args) {
+		System.out.println("Hello world!");
 		final ApplicationContext context = new ClassPathXmlApplicationContext(Constants.SPRING_XML);
 		final FizzBuzz myFizzBuzz = (FizzBuzz) context.getBean(Constants.STANDARD_FIZZ_BUZZ);
 		final FizzBuzzUpperLimitParameter fizzBuzzUpperLimit = new DefaultFizzBuzzUpperLimitParameter();
