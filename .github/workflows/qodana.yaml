@@ -28,3 +28,4 @@ jobs:
         with:
           linter: qodana-jvm-community
           save-html-report: true
+          profile-name: qodana.recommended
