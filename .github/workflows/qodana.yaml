@@ -28,4 +28,3 @@ jobs:
         with:
           linter: qodana-jvm-community
           save-html-report: true
-          project-dir: "$GITHUB_WORKSPACE"
